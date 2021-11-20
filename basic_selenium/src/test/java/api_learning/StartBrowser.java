@@ -1,11 +1,7 @@
 package api_learning;
 import driver.DriverFactory;
-import org.apache.commons.exec.OS;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-
-import java.time.Duration;
+import url.Urls;
 
 public class StartBrowser implements Urls {
     public static void main(String[] args) throws InterruptedException {
